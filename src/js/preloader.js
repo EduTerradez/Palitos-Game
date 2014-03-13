@@ -1,6 +1,9 @@
 (function() {
   'use strict';
 
+  
+  
+  
   function Preloader() {
     this.asset = null;
     this.ready = false;
@@ -9,6 +12,7 @@
   Preloader.prototype = {
 
     preload: function () {
+    this.load.spritesheet('Palito' , 'assets/Palitos.png', 19,68);
       this.asset = this.add.sprite(320, 240, 'preloader');
       this.asset.anchor.setTo(0.5, 0.5);
 
