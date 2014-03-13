@@ -17,8 +17,9 @@
       this.asset.anchor.setTo(0.5, 0.5);
 
       this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
-      /*this.load.setPreloadSprite(this.asset);
-      this.load.image('player', 'assets/player.png');*/
+      
+      this.load.spritesheet('Player1' , 'assets/Player1.png', 150,100);
+      this.load.spritesheet('Player2' , 'assets/Player2.png', 150,100);
       this.load.bitmapFont('minecraftia', 'assets/minecraftia.png', 'assets/minecraftia.xml');
     },
 
