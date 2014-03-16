@@ -31,6 +31,7 @@
 
   window['palitosgame'] = window['palitosgame'] || {};
   window['palitosgame'].Boot = Boot;
+  window['palitosgame'].Global = {lastMove: 0}
 
 }());
 
