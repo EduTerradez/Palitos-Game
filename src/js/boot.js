@@ -1,10 +1,10 @@
-(function () {
+(function() {
   'use strict';
 
   function Boot() {}
 
   Boot.prototype = {
-    
+
     preload: function () {
       this.load.image('preloader', 'assets/preloader.gif');
     },

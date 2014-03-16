@@ -2,7 +2,7 @@ window.onload = function () {
   'use strict';
 
   var game
-    , ns = window['palitosgame'];
+  , ns = window['palitosgame'];
 
   game = new Phaser.Game(700, 500, Phaser.AUTO, 'palitosgame-game');
   game.state.add('boot', ns.Boot);

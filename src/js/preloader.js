@@ -1,8 +1,5 @@
 (function() {
   'use strict';
-
-  
-  
   
   function Preloader() {
     this.asset = null;

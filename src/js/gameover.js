@@ -8,7 +8,7 @@
 
     create: function () {
       var x = this.game.width / 2
-        , y = this.game.height / 2;
+      , y = this.game.height / 2;
       this.playButton = null;
 
       if (window.palitosgame.Global.lastMove === 2){
